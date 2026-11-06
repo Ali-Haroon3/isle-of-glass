@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/Ali-Haroon3/isle-of-glass/security/advisories/new
+    about: Report a security defect privately. Do not post sensitive information in a public issue.

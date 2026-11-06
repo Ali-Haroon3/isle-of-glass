@@ -1,0 +1,25 @@
+name: Bug report
+description: Report an issue with the game or website.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Reports are public. Do not include passwords, tokens, personal information or private content. Security defects belong in private vulnerability reporting."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the puzzle or screen and how to reproduce the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and version
+      description: iPhone model, iOS version and app version, or browser for website issues.
