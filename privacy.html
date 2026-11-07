@@ -28,98 +28,33 @@
     <main id="main" class="legal">
       <p class="eyebrow">Privacy · Updated November 6, 2026</p>
       <h1>Your glass.<br />Your progress.</h1>
-      <p class="lead">
-        This policy describes the current local development build of Isle of
-        Glass and this public website, maintained by Ali Haroon.
-      </p>
-      <div class="notice">
-        <p>
-          The game is not publicly released. An online community is being
-          developed but is not publicly available. This policy will be updated
-          with its actual data practices before those services are offered.
-        </p>
-      </div>
-      <h2>What stays on your device</h2>
-      <p>
-        The current game stores puzzle boards, completed puzzles, preferences
-        and Workshop records on your iPhone. It does not require an account or
-        automatically send these game records to the developer. The campaign
-        works offline.
-      </p>
-      <h2>No advertising or tracking SDKs</h2>
-      <p>
-        The current build includes no advertising or third-party analytics SDKs.
-        It does not track you across other apps or websites. It does not request
-        access to your camera, microphone, contacts, location, photo library or
-        advertising identifier.
-      </p>
-      <h2>Files you choose to share</h2>
-      <p>
-        Exporting a Workshop puzzle uses the iPhone’s system share sheet or file
-        picker. You choose the destination. A puzzle file contains its rules,
-        board geometry and example solution. The selected app or service handles
-        the file under its own policy. Importing reads the file you select; it
-        does not give the game access to all your files.
-      </p>
-      <h2>Backups and deletion</h2>
-      <p>
-        iOS or iCloud backups may include local game data depending on your
-        settings. Isle of Glass does not provide its own cloud synchronization
-        in this build. Delete all local game data in Settings removes local game
-        records and preferences. Deleting the app also removes its local
-        container. Neither action recalls shared copies or removes existing
-        backups; manage those through the destination service or Apple’s
-        settings.
-      </p>
-      <h2>This website</h2>
-      <p>
-        This site uses no analytics scripts, advertising, tracking pixels,
-        sign-up forms or site cookies. It is hosted by GitHub Pages. GitHub
-        processes technical request information to provide its services; see
-        <a
-          href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
-          >GitHub’s privacy statement</a
-        >. We do not receive your local game progress through a visit to this
-        site.
-      </p>
-      <h2>Support you choose to request</h2>
-      <p>
-        Support is currently offered through
-        <a href="https://github.com/Ali-Haroon3/isle-of-glass/issues"
-          >GitHub Issues</a
-        >. Reports and your GitHub profile are public. The maintainer uses the
-        information you choose to provide to investigate and respond. Avoid
-        posting sensitive information. GitHub manages its own account data,
-        retention and privacy controls.
-      </p>
-      <p>
-        If you need a public report corrected or removed, use the report’s
-        thread without adding private information. For your GitHub account data,
-        use
-        <a
-          href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement#your-privacy-rights"
-          >GitHub’s privacy controls</a
-        >. Security vulnerabilities can be reported using
-        <a
-          href="https://github.com/Ali-Haroon3/isle-of-glass/security/advisories/new"
-          >private vulnerability reporting</a
-        >; that is not a general privacy-request inbox.
-      </p>
-      <h2>Future online services</h2>
-      <p>
-        Account creation, hosted puzzles or other online features will require
-        clear information about what is collected, why, how long it is retained,
-        and how to delete it. Those details and a suitable private contact
-        channel will be published before enabling such services. This policy
-        makes no claim that an unannounced service is already operating.
-      </p>
-      <h2>Questions</h2>
-      <p>
-        For non-sensitive questions about this policy, visit the
-        <a href="support.html">support page</a> or contact the maintainer
-        through the project’s public GitHub issues. The current game has no
-        developer-held player account or game-save database to delete.
-      </p>
+      <p class="lead">Isle of Glass is developed by Ali Haroon. This policy covers the iPhone game, optional community and private support service, and this website. The iPhone app is still being prepared for App Store release.</p>
+      <h2>The offline campaign</h2>
+      <p>Campaign moves, progress, preferences, and local Workshop records stay in the app’s on-device database. They are not automatically uploaded. You can play the campaign without a profile or internet connection. Device backups may include local game data according to your Apple settings.</p>
+      <h2>No ads or cross-app tracking</h2>
+      <p>The game includes no advertising, third-party analytics SDK, paid hints, subscription, or cross-app tracking. It does not request your contacts, location, camera, microphone, photo library, or advertising identifier. We do not sell personal data or use submitted data for advertising.</p>
+      <h2>Optional community sharing</h2>
+      <p>Browsing the community contacts our hosted service. Publishing a puzzle or blocking a creator requires an optional profile. The app generates a random access secret and keeps it in this device’s Keychain. The server stores only its cryptographic hash, a random profile identifier, a generated alias, creation time, accepted terms version, and moderation status. There is no email/password sign-in or recovery.</p>
+      <p>When you submit a puzzle, the service stores its board, rules, symbols, example solution, creator identifier, time, and review status. New submissions remain private until reviewed. Approved puzzles, their creator alias and identifier, and publication details are public. Your campaign progress and local undo history are not included. The service stores your blocking list privately and filters blocked creators from your gallery.</p>
+      <h2>Reports and moderation</h2>
+      <p>A report stores the selected reason, puzzle identifier, time, and your profile identifier if you use one. Reports and moderation decisions are visible to authorized operators, not other players. Report a mosaic in the app or use <a href="https://isle-of-glass-community.aliharoon396.chatgpt.site/support">private support</a> for safety, copyright, or appeal concerns. Do not post personal information or harmful material in public GitHub issues.</p>
+      <h2>Private support</h2>
+      <p>Support stores the topic and message you choose to send, a random request identifier, a hash of its private access code, status, timestamps, and the developer’s reply. It is separate from community profiles and does not require an email address. The code grants access to read or delete the conversation. The app stores access codes, pending drafts and cached replies in device-bound Keychain; the website shows the code for you to save and does not save it in browser storage. Avoid sending sensitive personal information. Anyone with the code can access the request; if you lose it, there is no identity-based recovery.</p>
+      <h2>Hosting and service protection</h2>
+      <p>The community runs through OpenAI Sites on Cloudflare infrastructure. Those providers process network information needed to deliver and protect the service. Our application database uses salted, time-windowed hashes of network addresses and request counters to limit abuse. It does not store raw IP addresses or use them to infer location. Counters expire after their rate-limit window; expired rows are pruned when requests arrive. This is not a promise that every expired row is physically erased at an exact hour.</p>
+      <p>Technical infrastructure logs may contain request, network, and error information under the hosting providers’ practices. The application does not deliberately log authentication secrets, support messages, or puzzle submission bodies. We use this information for operation, security, moderation, and support, not advertising or analytics. Hosting and support processing may occur outside your country.</p>
+      <h2>Deletion and retention</h2>
+      <p>In Community → Profile, Delete community profile removes the server profile, its submissions and blocking list, and associated moderation records. Reports you made about other puzzles may remain without your profile identifier. You can remove an individual submission from My submissions. Removing a puzzle from the service cannot recall copies already downloaded or exported by other people.</p>
+      <p>Support requests are separate. Delete each request and reply using its private code in the app or support website. Closed requests may also be erased by the operator after resolution. Otherwise community and support records remain until you remove them or moderation removes them. Minimal cryptographic deletion markers remain without automatic expiration to prevent interrupted network requests from recreating deleted content; these markers contain no message, puzzle, alias, or access secret.</p>
+      <p>Settings → Delete all local game data removes campaign progress, local Workshop records and preferences. It does not delete community server records, support requests, files shared elsewhere, or earlier device backups. Community and support access, pending drafts and cached replies remain in Keychain when you erase local game data, so you can still delete the separate server records. Delete community and support records using their own controls before discarding access to the device. Reset island progress only resets the campaign.</p>
+      <h2>Files you choose to exchange</h2>
+      <p>Workshop exports contain structured puzzle data and an example solution, not campaign progress or a verified account identity. The iPhone share destination handles the file under its own policies. Imported files stay local unless you explicitly submit a puzzle. File blocking prevents that exact design from being reimported. Blocking a community creator hides their known downloaded mosaics but cannot identify anonymous exported copies.</p>
+      <h2>This website and external links</h2>
+      <p>This site uses GitHub Pages and has no analytics script, advertising, or tracking cookies. GitHub may log network requests under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>. GitHub issues are public and require a GitHub account. Private support uses our separate hosted service. Apple may collect diagnostics according to your iPhone’s Analytics &amp; Improvements settings and Apple’s policies.</p>
+      <h2>Your rights and contact</h2>
+      <p>Depending on where you live, you may have rights to access, correct, delete, or restrict use of personal information and to complain to your local data-protection authority. Use <a href="https://isle-of-glass-community.aliharoon396.chatgpt.site/support">private support</a>, choosing Privacy or Deletion. Include only the information needed to identify your request or content; never send an access secret, password, identification document, or payment details. Operator: Ali Haroon, Isle of Glass.</p>
+      <h2>Children and changes</h2>
+      <p>The game is not marketed as a children’s service. The campaign does not require personal information. A parent or guardian should supervise optional online use when required by local law. Contact private support if a child has submitted personal information. We will update this policy when actual practices change and show a new date. See the <a href="https://isle-of-glass-community.aliharoon396.chatgpt.site/terms">community terms</a> before submitting.</p>
     </main>
     <footer class="site-footer wrap">
       <a class="brand" href="./"
