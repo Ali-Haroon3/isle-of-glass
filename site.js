@@ -10,6 +10,16 @@ const screens = {
     alt: "The hint panel checks progress and offers one possible piece.",
     caption: "Find a possible next piece, without changing your work.",
   },
+  community: {
+    file: "community.png",
+    alt: "The live community gallery lists approved studio starter mosaics.",
+    caption: "Download a mosaic or submit your own for review. Studio starters are labeled.",
+  },
+  progress: {
+    file: "progress.png",
+    alt: "The Island Atlas tracks 25 shores and 1,000 puzzles.",
+    caption: "Watch the island return to light. Preview uses a restored test save.",
+  },
   shapes: {
     file: "shapes.png",
     alt: "The shape bank displays silhouettes that fit the current area rule.",

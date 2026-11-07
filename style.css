@@ -1,12 +1,12 @@
 @charset "UTF-8";
 :root {
-  --paper: #f4f3ed;
-  --ink: #17333b;
-  --muted: #50646a;
+  --paper: #f4f0e4;
+  --ink: #293b2e;
+  --muted: #596556;
   --line: #cbd2ca;
-  --sea: #d6e4da;
-  --teal: #30645e;
-  --night: #071426;
+  --sea: #dce2cf;
+  --teal: #42624b;
+  --stone: #e6e1d2;
   --white: #fff;
   --radius: 6px;
 }
@@ -180,9 +180,9 @@ figure {
 }
 .hero-phone img,
 .detail-phone img {
-  border: 7px solid #10202c;
+  border: 7px solid #39493a;
   border-radius: 33px;
-  background: var(--night);
+  background: var(--stone);
 }
 figcaption {
   font-size: 11px;
@@ -243,7 +243,8 @@ p {
 }
 .gallery-controls {
   display: flex;
-  gap: 0;
+  gap: 0 10px;
+  flex-wrap: wrap;
   justify-content: space-between;
   border-bottom: 1px solid #b7c5ba;
   margin-bottom: 25px;
@@ -273,8 +274,8 @@ p {
 }
 .atlas-section {
   position: relative;
-  background: var(--night);
-  color: #f5f4ed;
+  background: var(--stone);
+  color: var(--ink);
   overflow: hidden;
   padding-top: 76px;
 }
@@ -287,7 +288,7 @@ p {
   z-index: 1;
 }
 .atlas-heading .eyebrow {
-  color: #a8cbbd;
+  color: var(--teal);
 }
 .atlas-heading h2 {
   font-size: 46px;
@@ -296,7 +297,7 @@ p {
 .atlas-heading > p:last-child {
   font-size: 15px;
   line-height: 1.9;
-  color: #bdc7cf;
+  color: var(--muted);
   max-width: 330px;
   padding-top: 5px;
 }
