@@ -2,7 +2,7 @@
 
 Live GitHub Pages site: https://ali-haroon3.github.io/isle-of-glass/
 
-Flat ivory/ink/sea-glass design, original sunlit icon and island artwork, and actual iPhone simulator screenshots. The app is being prepared for App Store release; this website does not claim approval or offer an unavailable download. Campaign:1,000 original puzzles,25shores. Community: separate live service, explicitly labeled studio starter content, optional profile, moderation, reports, blocks, deletion, private support.
+Flat ivory/ink/sea-glass design, original sunlit icon and island artwork, and actual iPhone simulator screenshots. Launch copy points to App Store app ID `6831862801`: `https://apps.apple.com/us/app/isle-of-glass/id6831862801`. The public U.S. listing was verified on November 8, 2026 (November 9 UTC), after Apple confirmed Ready for Distribution. Store listing verification does not claim an App Store download/install test. The initial iPhone release is free and United States-only, with no ads, subscriptions or paid hints. Campaign: 1,000 original puzzles, 25 shores. Community: separate live service, explicitly labeled studio starter content, optional profile, moderation, reports, blocks, deletion, private support.
 
 The root game workspace retains source, screenshots and test evidence. This repository intentionally contains only public website files. Do not add credentials, private support messages, signing data, device identifiers or app build artifacts.
 
